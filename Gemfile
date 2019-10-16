@@ -11,6 +11,11 @@ gem 'bootstrap-sass'
 gem 'rails-controller-testing'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
+
+
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
+
+
 group :development, :test do
  gem 'sqlite3'
 end
