@@ -7,6 +7,7 @@ ruby '2.6.3'
 gem 'rails', '~> 5.2.3'
 
 gem 'bootstrap-sass'
+gem 'jquery-rails'
 
 gem 'rails-controller-testing'
 # Use sqlite3 as the database for Active Record
