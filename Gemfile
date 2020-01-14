@@ -18,6 +18,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
 
 gem "loofah", ">= 2.3.1"
 
@@ -25,6 +27,7 @@ gem 'rubocop-faker'
 
 group :production do
   gem 'pg'
+  gem 'fog'
 end
 
 group :development, :test do
